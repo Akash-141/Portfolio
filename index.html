@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akash Paul | Web Developer - Full Stack Developer Portfolio</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Akash Paul - Professional Web Developer specializing in HTML, CSS, JavaScript, React, Node.js, MongoDB. Building beautiful, responsive websites for modern businesses.">
+    <meta name="keywords" content="Web Developer, Full Stack Developer, React Developer, Node.js, MongoDB, Express, Portfolio, Akash Paul">
+    <meta name="author" content="Akash Paul">
+    <meta name="robots" content="index, follow">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Akash Paul | Professional Web Developer">
+    <meta property="og:description" content="Full Stack Web Developer creating modern, responsive web solutions">
+    <meta property="og:url" content="https://akash-paul.com">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Akash Paul | Web Developer">
+    <meta name="twitter:description" content="Professional Web Developer Portfolio">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="images/favicon.png">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@500&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+
+    <!-- Boxicons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- Local CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- LOADING SCREEN -->
+    <div class="loading-screen" id="loading-screen">
+        <div class="loader">
+            <div class="loader-bar"></div>
+            <p class="loading-text">Loading...</p>
+        </div>
+    </div>
+
+    <!-- SCROLL PROGRESS BAR -->
+    <div class="scroll-progress" id="scroll-progress"></div>
+
+    <!-- BACK TO TOP BUTTON -->
+    <button class="back-to-top" id="back-to-top" aria-label="Back to top">
+        <i class='bx bx-chevron-up'></i>
+    </button>
+
+    <!-- CUSTOM CURSOR -->
+    <div class="cursor-dot"></div>
+    <div class="cursor-follower"></div>
+
+    <!-- LEFT SIDEBAR (Desktop/Tablet) & SLIDE-OUT MENU (Mobile) -->
+    <nav class="sidebar-left" id="sidebar-menu">
+        <div class="sidebar-content">
+            <a href="#home" class="logo-link">
+                <span class="logo-name">Akash Paul</span>
+            </a>
+
+            <div class="menu-items">
+                <ul class="nav-list">
+                    <li><a href="#home" class="nav-link active-link">Home</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#projects" class="nav-link">Projects</a></li>
+                    <li><a href="#testimonials" class="nav-link">Testimonials</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="sidebar-footer">
+            <!-- Social Icons -->
+            <div class="sidebar-social-icons">
+                <a href="https://www.linkedin.com/in/akash141" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class='bx bxl-linkedin'></i></a>
+                <a href="https://github.com/Akash-141" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class='bx bxl-github'></i></a>
+                <a href="https://t.me/Akash_141" target="_blank" rel="noopener noreferrer" aria-label="Telegram"><i class='bx bxl-telegram'></i></a>
+                <a href="https://wa.link/g1bj7a" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp"><i class='bx bxl-whatsapp'></i></a>
+            </div>
+
+            <button class="theme-toggle" id="theme-button" aria-label="Toggle dark mode">
+                <i class='bx bx-moon'></i>
+                <i class='bx bx-sun'></i>
+            </button>
+            <div class="footer-text">
+                &copy; 2025 Akash Paul. All rights reserved.
+            </div>
+        </div>
+    </nav>
+
+    <!-- MOBILE HEADER -->
+    <header class="mobile-header">
+        <a href="#home" class="logo-link">
+            <span class="logo-name">Akash Paul</span>
+        </a>
+        <button class="menu-toggle" id="menu-toggle-btn" aria-label="Open menu">
+            <i class='bx bx-menu'></i>
+        </button>
+    </header>
+
+    <!-- RIGHT FIXED SOCIAL BAR (Hidden - moved to sidebar) -->
+    <div class="sidebar-right">
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <main class="main-content">
+        <!-- ===== HOME/HERO SECTION ===== -->
+        <section class="section hero" id="home">
+            <div class="hero-content">
+                <h1 class="hero-title">I Develop&nbsp;<span class="typing-effect"></span></h1>
+                <p class="hero-subtitle">Creative and responsive web solutions for modern businesses.</p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn">Get In Touch <i class='bx bx-right-arrow-alt'></i></a>
+                    <!-- <a href="#" class="btn btn-outline" id="download-resume">Download Resume <i class='bx bx-download'></i></a> -->
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== ABOUT ME SECTION ===== -->
+        <section class="section" id="about">
+            <h2 class="section-title">About Me</h2>
+
+            <div class="about-container">
+                <div class="about-image-container">
+                    <img src="images/Akash_Paul.jpg" alt="Akash Paul" class="about-photo">
+                </div>
+                <div class="about-content">
+                    <div class="about-text">
+                        <h3>Hi, I'm Akash Paul</h3>
+                        <p>I am a passionate web developer with a knack for building beautiful, functional, and user-centric websites. I thrive on turning complex problems into simple, elegant solutions.</p>
+                    </div>
+                    <div class="about-details">
+                        <div class="tabs">
+                            <!-- <button class="tab-btn " data-target="#experience">Experience</button> -->
+                            <button class="tab-btn active-tab" data-target="#skills">Skills</button>
+                            <button class="tab-btn" data-target="#education">Education</button>
+                        </div>
+                        <div class="tab-content">
+                            <!-- <div id="experience" class="tab-pane active-pane">
+                                <h4>Frontend Developer</h4>
+                                <p><em>2022 - Present</em><br>Developed and maintained responsive web applications using React and Next.js.</p>
+                                <h4>Project Building</h4>
+                                <p><em>2022 - Present</em><br>I have built many personal projects and for my clients.</p>
+                            </div> -->
+                            <div id="skills" class="tab-pane active-pane">
+                                <div class="skills-grid-box">
+                                    <div class="skill-box">
+                                        <i class='bx bxl-html5'></i>
+                                        <span>HTML5</span>
+                                    </div>
+                                    <div class="skill-box">
+                                        <i class='bx bxl-css3'></i>
+                                        <span>CSS3</span>
+                                    </div>
+                                    <div class="skill-box">
+                                        <i class='bx bxl-javascript'></i>
+                                        <span>JavaScript</span>
+                                    </div>
+                                    <div class="skill-box">
+                                        <i class='bx bxl-react'></i>
+                                        <span>React</span>
+                                    </div>
+                                    <div class="skill-box">
+                                        <i class='bx bxl-nodejs'></i>
+                                        <span>Node.js</span>
+                                    </div>
+                                    <div class="skill-box">
+                                        <i class='bx bxl-python'></i>
+                                        <span>Python</span>
+                                    </div>
+                                    <div class="skill-box">
+                                        <i class='bx bxl-mongodb'></i>
+                                        <span>MongoDB</span>
+                                    </div>
+                                    <div class="skill-box">
+                                        <i class='bx bx-code-block'></i>
+                                        <span>ExpressJS</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="education" class="tab-pane">
+                                <h4>B.Sc. in Computer Science & Engineering</h4>
+                                <p><em>Patuakhali Science and Technology University, 2022 - Present</em><br></p>
+                                <h4>Higher Secondary Certificate - GPA: 5.00</h4>
+                                <p><em>Govt. MM College, Jashore</em><br></p>
+                                <h4>Secondary School Certificate - GPA: 5.00</h4>
+                                <p><em>Border Guard School, Jashore</em><br></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== PROJECTS SECTION ===== -->
+        <section class="section" id="projects">
+            <h2 class="section-title">My Projects</h2>
+            <p class="section-subtitle">Showcasing my best work and creative solutions</p>
+
+            <!-- Project Filters -->
+            <div class="project-filters">
+                <button class="filter-btn active-filter" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="web">Web Apps</button>
+                <button class="filter-btn hidden-filter" data-filter="mobile">Mobile</button>
+                <button class="filter-btn hidden-filter" data-filter="design">Design</button>
+            </div>
+
+            <div class="projects-grid">
+                <!-- Project Card 1 -->
+                <div class="project-card animate-on-scroll" data-category="web">
+                    <img src="https://placehold.co/400x250" alt="Project 1">
+                    <div class="project-info">
+                        <h3>E-commerce Platform</h3>
+                        <p>A full-stack e-commerce site with product management and a payment gateway.</p>
+                        <div class="project-links">
+                            <a href="#" class="btn-secondary">Live Demo <i class='bx bx-link-external'></i></a>
+                            <a href="#" class="btn-secondary">Source <i class='bx bxl-github'></i></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project Card 2 -->
+                <div class="project-card animate-on-scroll" data-category="design">
+                    <img src="https://placehold.co/400x250" alt="Project 2">
+                    <div class="project-info">
+                        <h3>Portfolio Template</h3>
+                        <p>A responsive and animated portfolio template for creatives.</p>
+                        <div class="project-links">
+                            <a href="#" class="btn-secondary">Live Demo <i class='bx bx-link-external'></i></a>
+                            <a href="#" class="btn-secondary">Source <i class='bx bxl-github'></i></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project Card 3 -->
+                <div class="project-card animate-on-scroll" data-category="web">
+                    <img src="https://placehold.co/400x250" alt="Project 3">
+                    <div class="project-info">
+                        <h3>Task Management App</h3>
+                        <p>A React-based task app with drag-and-drop functionality.</p>
+                        <div class="project-links">
+                            <a href="#" class="btn-secondary">Live Demo <i class='bx bx-link-external'></i></a>
+                            <a href="#" class="btn-secondary">Source <i class='bx bxl-github'></i></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project Card 4 -->
+                <div class="project-card animate-on-scroll" data-category="mobile">
+                    <img src="https://placehold.co/400x250" alt="Project 4">
+                    <div class="project-info">
+                        <h3>Fitness Tracker App</h3>
+                        <p>Mobile app to track workouts and nutrition with real-time stats.</p>
+                        <div class="project-links">
+                            <a href="#" class="btn-secondary">Live Demo <i class='bx bx-link-external'></i></a>
+                            <a href="#" class="btn-secondary">Source <i class='bx bxl-github'></i></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project Card 5 -->
+                <div class="project-card animate-on-scroll" data-category="web">
+                    <img src="https://placehold.co/400x250" alt="Project 5">
+                    <div class="project-info">
+                        <h3>Social Media Dashboard</h3>
+                        <p>Analytics dashboard for social media insights and engagement tracking.</p>
+                        <div class="project-links">
+                            <a href="#" class="btn-secondary">Live Demo <i class='bx bx-link-external'></i></a>
+                            <a href="#" class="btn-secondary">Source <i class='bx bxl-github'></i></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project Card 6 -->
+                <div class="project-card animate-on-scroll" data-category="design">
+                    <img src="https://placehold.co/400x250" alt="Project 6">
+                    <div class="project-info">
+                        <h3>Brand Identity Design</h3>
+                        <p>Complete branding package including logo, colors, and guidelines.</p>
+                        <div class="project-links">
+                            <a href="#" class="btn-secondary">View Case Study <i class='bx bx-link-external'></i></a>
+                            <a href="#" class="btn-secondary">Behance <i class='bx bxl-behance'></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== TESTIMONIALS SECTION ===== -->
+        <section class="section" id="testimonials">
+            <h2 class="section-title">What Clients Say</h2>
+            <div class="testimonial-carousel animate-on-scroll">
+                <div class="testimonial-track">
+                    <!-- Slide 1 -->
+                    <div class="testimonial-slide">
+                        <p class="quote">"Working with them was a breeze. They delivered a high-quality website that exceeded our expectations on every level."</p>
+                        <cite>- Jane Doe, CEO of InnoTech</cite>
+                    </div>
+                    <!-- Slide 2 -->
+                    <div class="testimonial-slide">
+                        <p class="quote">"The level of professionalism and technical skill is outstanding. Our new site is fast, responsive, and looks amazing."</p>
+                        <cite>- John Smith, Founder of Creative Co.</cite>
+                    </div>
+                </div>
+                <div class="carousel-dots"></div>
+            </div>
+        </section>
+
+        <!-- ===== CONTACT SECTION ===== -->
+        <section class="section" id="contact">
+            <h2 class="section-title">Get In Touch</h2>
+            <p class="section-subtitle">Have a project in mind? Let's build something great together.</p>
+
+            <div class="contact-info">
+                <div class="contact-item">
+                    <i class='bx bx-envelope'></i>
+                    <a href="mailto:akash17.paul@gmail.com">akash17.paul@gmail.com</a>
+                </div>
+                <div class="contact-item">
+                    <i class='bx bxl-whatsapp'></i>
+                    <a href="https://wa.me/8801927801644" target="_blank" rel="noopener noreferrer">+880 1927 801644</a>
+                </div>
+            </div>
+
+            <!-- Form Status Messages -->
+            <div class="form-status" id="form-status"></div>
+
+            <form action="#" class="contact-form animate-on-scroll" id="contact-form">
+                <input type="text" name="name" id="form-name" placeholder="Your Name" required>
+                <input type="email" name="email" id="form-email" placeholder="Your Email" required>
+                <textarea name="message" id="form-message" placeholder="Your Message" rows="6" required></textarea>
+                <button type="submit" class="btn">
+                    <span class="btn-text">Send Message <i class='bx bxs-paper-plane'></i></span>
+                    <span class="btn-loading">
+                        <i class='bx bx-loader-alt bx-spin'></i> Sending...
+                    </span>
+                </button>
+            </form>
+        </section>
+
+    </main>
+
+    <!-- Local JS -->
+    <script src="script.js"></script>
+</body>
+
+</html>
