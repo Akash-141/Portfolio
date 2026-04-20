@@ -11,6 +11,7 @@ document.addEventListener('DOMContentLoaded', () => {
             document.body.classList.remove('loading');
         }, 1000);
     });
+    
 
     // ===== SCROLL PROGRESS BAR =====
     const scrollProgress = document.getElementById('scroll-progress');
