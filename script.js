@@ -12,7 +12,6 @@ document.addEventListener('DOMContentLoaded', () => {
         }, 1000);
     });
     
-
     // ===== SCROLL PROGRESS BAR =====
     const scrollProgress = document.getElementById('scroll-progress');
     let ticking = false;
