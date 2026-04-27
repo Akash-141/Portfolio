@@ -135,6 +135,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
     animateFollower();
 
+    
     // Add hover effect for interactive elements
     const interactiveElements = document.querySelectorAll('a, button, .tab-btn, .dot, .menu-toggle, .filter-btn');
     interactiveElements.forEach(el => {
