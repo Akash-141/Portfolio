@@ -20,7 +20,6 @@
     --shadow-color: rgba(0, 0, 0, 0.1);
 }
 
-
 body.dark-theme {
     /* Dark Theme Colors */
     --primary-color: #5d78d4;
