@@ -147,8 +147,6 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 
-
-
     // ===== TYPING EFFECT =====
     const typingElement = document.querySelector('.typing-effect');
     const words = ["Websites.", "Interfaces.", "Experiences."];
